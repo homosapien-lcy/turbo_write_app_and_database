@@ -1,0 +1,1 @@
+python VPClustering.py pubmed_title_abstract_VP_collection/ $1 pubmed_title_abstract $2 VP_clustering_results

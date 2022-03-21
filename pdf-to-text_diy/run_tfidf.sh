@@ -1,0 +1,1 @@
+python IDFDataProcessor.py ../title_abstract_processor/pubmed_title_abstract_sentences_db 100 pubmed_title_abstract lb whole

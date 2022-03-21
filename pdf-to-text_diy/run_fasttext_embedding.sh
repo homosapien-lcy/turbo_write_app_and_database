@@ -1,0 +1,1 @@
+python embeddingProcessorFT.py pubmed_title_abstract pubmed_title_abstract_idf_data_whole.pkl ../title_abstract_processor/pubmed_title_abstract_for_display 1 pubmed_title_abstract pubmed_title_abstract_sentence_embedding

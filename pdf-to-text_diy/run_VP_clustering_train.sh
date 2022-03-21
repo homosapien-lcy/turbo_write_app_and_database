@@ -1,0 +1,1 @@
+python VPClusteringTrain.py ../commercial-paper-processor-high-volume/psychology_Discussion $1 pubmed_title_abstract $2 300 $3 psychology_Discussion
