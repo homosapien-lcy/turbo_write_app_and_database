@@ -1,0 +1,12 @@
+__pycache__/
+
+*.pyc
+
+psychology_db_num_group_*.json
+*.tar.gz
+
+*_Discussion
+*_Results
+*_Methods
+*_Introduction
+*_Abstract

@@ -1,0 +1,1 @@
+tar -czvf title_abstract_collector.tar.gz ./

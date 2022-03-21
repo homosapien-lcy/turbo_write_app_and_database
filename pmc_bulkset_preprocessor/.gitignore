@@ -1,0 +1,12 @@
+__pycache__
+*_data/
+
+*_paper_list*
+oa_comm_use_file_list.csv
+
+*paper_info_collection
+PMCID_to_download
+
+*_journal_list.csv
+
+*_PMCID_list*

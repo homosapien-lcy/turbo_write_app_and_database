@@ -1,0 +1,3 @@
+rm pubmed_title_abstract_collection_*.pkl
+rm download_state
+rm title_abstract_download.log

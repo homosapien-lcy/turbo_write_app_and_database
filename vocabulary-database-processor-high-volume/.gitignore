@@ -1,0 +1,7 @@
+*data/
+.DS_Store
+__pycache__/
+
+*paper_info_collection
+*.json
+*.pyc

@@ -1,0 +1,1 @@
+python3 getTitleAndAbstract.py $1 $2 pubmed_title_abstract_collection &>> title_abstract_download.log&
