@@ -153,6 +153,8 @@ def addUpsertOps(upload_data):
     return upload_data_upsert
 
 
+# collect data
+data_box = []
 for json_filename in json_filename_list:
     print("uploading:", json_filename)
     json_file = open(json_filename, 'r')
@@ -162,15 +164,17 @@ for json_filename in json_filename_list:
         # convert string to json with loads
         upload_data = json.loads(line)
 
-        print("amount of data:", len(upload_data))
-
-        # upload to db
-        for i in range(0, len(upload_data), per_batch):
-            # get batch
-            cur_upload_data = upload_data[i: i+per_batch]
-            # add upsert op
-            cur_upload_data = addUpsertOps(cur_upload_data)
-            response = bulkInsertData(_es, cur_upload_data)
-            print("response:", response)
+        data_box.extend(upload_data)
 
     json_file.close()
+
+print("total amount of data:", len(data_box))
+
+# upload to db
+for i in range(0, len(data_box), per_batch):
+    # get batch
+    cur_data_box = data_box[i: i+per_batch]
+    # add upsert op
+    cur_data_box = addUpsertOps(cur_data_box)
+    response = bulkInsertData(_es, cur_data_box)
+    print("response:", response)
