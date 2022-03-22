@@ -1,5 +1,8 @@
 # generate ES Database
+python ESDBConverter.py ../pmc_bulkset_preprocessor/paper_info_collection ../PMC_commercial_paperset/psychology_paper_collection/ psychology 1
+python ESDBConverter.py ../pmc_bulkset_preprocessor/paper_info_collection ../PMC_commercial_paperset/psychology_paper_collection/ psychology 2
 python ESDBConverter.py ../pmc_bulkset_preprocessor/paper_info_collection ../PMC_commercial_paperset/psychology_paper_collection/ psychology 3
+python ESDBConverter.py ../pmc_bulkset_preprocessor/paper_info_collection ../PMC_commercial_paperset/psychology_paper_collection/ psychology 5
 # generate similarity DB data
 python similarityDBConverter.py ../pmc_bulkset_preprocessor/paper_info_collection ../PMC_commercial_paperset/psychology_paper_collection/ psychology Abstract
 python similarityDBConverter.py ../pmc_bulkset_preprocessor/paper_info_collection ../PMC_commercial_paperset/psychology_paper_collection/ psychology Introduction
