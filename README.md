@@ -17,5 +17,7 @@ The web app has four databases:
 3. A citation search function connected to NCBI academic database for the citation search function
 4. A vocabulary database for the scientific phrase input method (based on MongoDB) 
 
-![alt text](https://github.com/homosapien-lcy/turbo_write_app_and_database/blob/main/database_illustration.png?raw=true)
+![alt text](https://github.com/homosapien-lcy/turbo_write_app_and_database/blob/main/database_diagram_1.png?raw=true)
+![alt text](https://github.com/homosapien-lcy/turbo_write_app_and_database/blob/main/database_diagram_2.png?raw=true)
+![alt text](https://github.com/homosapien-lcy/turbo_write_app_and_database/blob/main/database_usage_illustration.png?raw=true)
 
