@@ -16,3 +16,6 @@ The web app has four databases:
 2. An evidence database for the evidence search function (based on Faiss similarity search)
 3. A citation search function connected to NCBI academic database for the citation search function
 4. A vocabulary database for the scientific phrase input method (based on MongoDB) 
+
+![alt text](https://github.com/homosapien-lcy/turbo_write_app_and_database/blob/main/database_illustration.png?raw=true)
+
