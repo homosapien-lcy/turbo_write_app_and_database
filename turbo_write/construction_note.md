@@ -1,0 +1,6 @@
+1. To install and use create-react-app on Ubuntu, you need to follow: https://www.techomoro.com/how-to-install-and-setup-a-react-app-on-ubuntu-18-04-1/ and https://stackoverflow.com/questions/53455753/create-react-app-fails-with-permission-denied to give permission to the system
+2. If you seen only black and white, probably @import '~antd/dist/antd.css'; is not added to the css file
+3. upload to git using the following instruction https://confluence.atlassian.com/bitbucketserver/importing-code-from-an-existing-project-776640909.html
+4. must use "http://localhost:5000" instead of "https://localhost:5000" or "localhost:5000", or will cause cross origin error and symptom is: server end will receive nothing
+5. for superagent, the client side needs to JSON.stringify, or the fields will show up as "[Object Object]"
+6. if the client shows cors error, add http://teknosrc.com/enable-cors-send-cross-domain-request-elasticsearch-ajax-xmlhttprequest-cannot-load-http-localhost-9200-no-access-control-allow-origin-header-present-requested-resource/ these lines to enable cors in es

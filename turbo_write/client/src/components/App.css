@@ -1,0 +1,20 @@
+@import "~antd/dist/antd.css";
+
+img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.search-region {
+  overflow: auto;
+  height: 100vh;
+}
+
+.content-region {
+  /* padding sets a distance between all elements */
+  padding: 20px;
+}
+
+.search_result-col {
+  padding: 5px;
+}
